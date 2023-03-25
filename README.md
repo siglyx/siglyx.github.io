@@ -1,2 +1,2 @@
 # siglyx.github.io
-Siglux website
+Siglyx website
