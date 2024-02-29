@@ -21,12 +21,12 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
     
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Siglyx | Siglyx Site</title>
-<meta name="generator" content="Jekyll v4.3.2" />
+<title>Siglyx | Siglyx</title>
+<meta name="generator" content="Jekyll v4.3.3" />
 <meta property="og:title" content="Siglyx" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Siglyx Web site description" />
-<meta property="og:description" content="Siglyx Web site description" />
+<meta name="description" content="Siglyx Web site" />
+<meta property="og:description" content="Siglyx Web site" />
 <link rel="canonical" href="http://localhost:4000/" />
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Siglyx" />
@@ -34,7 +34,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Siglyx" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Siglyx Web site description","headline":"Siglyx","name":"Siglyx","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"Siglyx Web site","headline":"Siglyx","name":"Siglyx","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/siglyx-logo.svg"}},"url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 
     <!-- head scripts --></head>
@@ -43,9 +43,15 @@
     <nav class="navbar is-primary " x-data="{ openNav: false }">
     <div class="container">
         <div class="navbar-brand">
-            <a href="/" class="navbar-item">
+            <!--a href="/" class="navbar-item">
                 Siglyx
-            </a>
+            </a--!>
+            <!--a href="/" class="navbar-item">
+                Siglyx
+	    </a--!>
+	    <!--div class="navbar-item">
+                <img src="./siglyx-logo.svg" alt="Siglyx"/>
+	    </div--!>
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -54,11 +60,10 @@
         </div>
         <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
             <div class="navbar-start">
-                <a href="/" class="navbar-item is-active">Home</a>
                 
                 
                     
-                    <a href="/services/" class="navbar-item ">Services</a>
+                    <a href="/" class="navbar-item is-active">Home</a>
                     
                 
                     
@@ -78,65 +83,39 @@
     <section class="hero  is-medium  is-light">
         <div class="hero-body">
             <div class="container">
+                
                 <div class="columns is-multiline is-centered">
                     
-                        <div class="column is-4 has-text-centered">
+                        
+                        <div class="column is-one-third">
+                        
                             
-                            <div class="icon callout-icon">
                             
-                                <i class="fas fa-code fa-4x"></i>
-                            
+                            <div>
+                              <img src="./siglyx-logo.svg" alt="Siglyx">
                             </div>
                             
-                            <p class="title is-5">Low-code High-scalability</p>
+                            <p class="title is-5"></p>
                             <p class="subtitle is-5"></p>
                             
-                            
-                            <div class="content">
-                                <p>Low-code access to robust distributed signal processing operators. <br />
-</p>
-                            </div>
                             
 
                             
                         </div>
                     
-                        <div class="column is-4 has-text-centered">
+                        
+                        <div class="column is-two-thirds has-text-centered">
+                        
                             
-                            <div class="icon callout-icon">
                             
-                                <i class="fas fa-cloud fa-4x"></i>
-                            
-                            </div>
-                            
-                            <p class="title is-5">Cloud Native</p>
+                            <p class="title is-5">Have you tried to manage your sensor data, only to realise that modern architectures and technology stacks are not really optimised to applying DSP methods? Or to managing and processing data that is continuous and not inherently segmented? Did you need to develop bespoke solutions to tackle the problem and perhaps found that the cost renders the project infeasible?
+</p>
                             <p class="subtitle is-5"></p>
                             
                             
                             <div class="content">
-                                <p>Designed and built for Kubernetes deployment.<br />
-</p>
-                            </div>
-                            
-
-                            
-                        </div>
-                    
-                        <div class="column is-4 has-text-centered">
-                            
-                            <div class="icon callout-icon">
-                            
-                                <i class="fas fa-leaf fa-4x"></i>
-                            
-                            </div>
-                            
-                            <p class="title is-5">Green</p>
-                            <p class="subtitle is-5"></p>
-                            
-                            
-                            <div class="content">
-                                <p>Highly optimized operator implementations, guaranteed to reduce Cloud bills and CO2 footprint.<br />
-</p>
+                                <p><em>SIGLYX is a tech startup from Athens, Greece, founded by computer scientists who have come across these problems multiple times and have embarked to develop a solution.<br />
+</em></p>
                             </div>
                             
 
@@ -144,6 +123,7 @@
                         </div>
                     
                 </div>
+              
             </div>
         </div>
     </section>
@@ -161,19 +141,31 @@
                     
                     
 <div class="content">
-    <h1 id="low-code">Low code</h1>
+    <h1 id="technology">Technology</h1>
 
-<p>Simple Python interface to distributed and scalable implementations
-of complex signal processing operators.</p>
+<p>At SIGLYX, we develop technology to enable low-code, homogenous &amp; efficient processing 
+of Big data collections and ultra-long sensor data series. Our vision is to overcome the
+sub-optimal fit of modern Big Data/Big Stream architectures and technology stacks specifically
+for continuous sensor data, a need currently addressed mostly by bespoke solutions.
+Our technology allows for the extraction of insights and value from data that are currently
+not fully exploitable, using highly optimized implementations to significantly reduce
+processing costs.</p>
 
-<h1 id="cloud-native">Cloud Native</h1>
+<h1 id="prospective-partners--ecosystems">Prospective partners &amp; ecosystems</h1>
 
-<p>Siglyx in the Cloud</p>
+<p>A significant part of our product strategy is to synchronise our internal development plan
+with our collaboration with the right partners, ecosystems and prospective users of our technology.
+We realise that the adoption of our technology heavily lies on the “fit” to evolving solution
+stacks, architectures, ecosystems and business models – definitely not only on its stand-alone
+perceived value. We seek to be involved in research projects, feasibility studies, analyses and
+discourses relevant to some extent to our technology and wish to contribute our capabilities and
+expertise while hopefully optimising our product strategy along the way.</p>
 
-<h1 id="green">Green</h1>
+<h1 id="get-in-touch">Get in touch!</h1>
 
-<p>We can have some more content here if we want</p>
-
+<p>Do you have a project in which you could use our expertise? Are you interested in evaluating
+a joint research proposal? Would you perhaps like to evaluate whether we can optimise parts 
+of your existing solution? <a href="contact/">Contact us!</a></p>
 
 </div>
                 </div>
@@ -188,36 +180,11 @@ of complex signal processing operators.</p>
         
         <div class="columns is-multiline">
             
-            <div class="column has-text-centered">
-                <div>
-                    <a href="/" class="link">Home</a>
-                </div>
-            </div>
-            
-            <div class="column has-text-centered">
-                <div>
-                    <a href="/services/" class="link">Services</a>
-                </div>
-            </div>
-            
-            <div class="column has-text-centered">
-                <div>
-                    <a href="/contact/" class="link">Contact us</a>
-                </div>
-            </div>
-            
-            <div class="column has-text-centered">
-                <div>
-                    <a href="/privacy/" class="link">Privacy Policy</a>
-                </div>
-            </div>
-            
         </div>
         
 
         <div class="content is-small has-text-centered">
-          <p class="">Website developed for <a href="https://jekyllrb.com">Jekyll</a> based
-	  on <a href="https://www.csrhymes.com/bulma-clean-theme">bulma-clean-theme</a>.</p>
+          <p class="">SIGLYX IKE – Athens, Greece – Registration Number 168857901000 – info@siglyx.com</p>
         </div>
     </div>
 </footer>
